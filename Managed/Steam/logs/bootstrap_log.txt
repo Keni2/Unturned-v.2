@@ -1,0 +1,5 @@
+
+
+[2016-08-17 15:05:14] Startup - updater built Dec  2 2013 18:43:44
+[2016-08-17 15:05:14] Checking for update on startup
+[2016-08-17 15:05:14] Checking for available update...

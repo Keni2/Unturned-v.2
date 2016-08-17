@@ -1,0 +1,7 @@
+1-—делать копию игры Unturned
+2-¬ копию игры скинуть папку Servers
+3-ѕапку Managed скинуть в  опи€ игры\Unturned_Data\   с заменой файлов
+4-—оздать €рлык копированой игры Unurned 
+5-»зменить им€ €рлыка на какое вам угодное
+6-ќткрыть свойства €рлыка и найти строку ќбьект
+7- после Unturned.exe" ввести  -nographics -batchmode +secureserver/P.K.S. должно получитьс€ так "ѕуть к €рылку\Unturned.exe" -nographics -batchmode +secureserver/P.K.S
