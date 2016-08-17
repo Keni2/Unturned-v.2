@@ -1,4 +1,6 @@
 Name [P.K.S.]Rusian server
-Port 25444
-MaxPlayers 30
+Port 27015
+MaxPlayers 24
 Mode Normal
+map PEI
+cheats on

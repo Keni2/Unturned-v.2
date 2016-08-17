@@ -1,0 +1,440 @@
+{
+  "setwarp": {
+    "Aliases": [],
+    "Usage": "[warp_name] <x> <y> <z>",
+    "Description": "Set an warp.",
+    "Cost": 0.0
+  },
+  "delwarp": {
+    "Aliases": [
+      "deletewarp"
+    ],
+    "Usage": "[warp_name]",
+    "Description": "Delete an existing warp",
+    "Cost": 0.0
+  },
+  "warp": {
+    "Aliases": [],
+    "Usage": "[warp_name]",
+    "Description": "Teleport you to given warp.",
+    "Cost": 0.0
+  },
+  "warps": {
+    "Aliases": [],
+    "Usage": "",
+    "Description": "View available warps",
+    "Cost": 0.0
+  },
+  "deletekit": {
+    "Aliases": [
+      "dkit"
+    ],
+    "Usage": "[name]",
+    "Description": "Delete an kit.",
+    "Cost": 0.0
+  },
+  "createkit": {
+    "Aliases": [
+      "ckit"
+    ],
+    "Usage": "[name] <cooldown> <resetCooldownWhenDie> <cost>",
+    "Description": "Create a kit.",
+    "Cost": 0.0
+  },
+  "dropkit": {
+    "Aliases": [
+      "dk"
+    ],
+    "Usage": "[kit] <player | x y z>",
+    "Description": "Drop an kit at given player/position",
+    "Cost": 0.0
+  },
+  "kits": {
+    "Aliases": [],
+    "Usage": "",
+    "Description": "View available kits",
+    "Cost": 0.0
+  },
+  "kit": {
+    "Aliases": [],
+    "Usage": "[kit_name] <player | *>",
+    "Description": "Get an kit",
+    "Cost": 0.0
+  },
+  "editkit": {
+    "Aliases": [
+      "ekit"
+    ],
+    "Usage": "[kit] [view | additem | delitem | set]",
+    "Description": "Edit an kit",
+    "Cost": 0.0
+  },
+  "home": {
+    "Aliases": [
+      "h"
+    ],
+    "Usage": "",
+    "Description": "Teleport to your bed.",
+    "Cost": 0.0
+  },
+  "jump": {
+    "Aliases": [],
+    "Usage": "<max_distance>",
+    "Description": "Teleport to a position that you are looking towards.",
+    "Cost": 0.0
+  },
+  "killanimals": {
+    "Aliases": [
+      "clearanimals"
+    ],
+    "Usage": "",
+    "Description": "Kill all animals",
+    "Cost": 0.0
+  },
+  "spawnvehicle": {
+    "Aliases": [
+      "spawnveh"
+    ],
+    "Usage": "[id] [player] or [x] [y] [z]",
+    "Description": "Spawn a vehicle on player's/given position",
+    "Cost": 0.0
+  },
+  "boom": {
+    "Aliases": [
+      "explode"
+    ],
+    "Usage": "[player | * | x, y, z]",
+    "Description": "Create an explosion on player's/given position",
+    "Cost": 0.0
+  },
+  "tellraw": {
+    "Aliases": [],
+    "Usage": "[player/*console*] [message]",
+    "Description": "Send raw message to an player.",
+    "Cost": 0.0
+  },
+  "tp": {
+    "Aliases": [],
+    "Usage": "[player|place|x y z] or [player] [player|place|x y z]",
+    "Description": "Teleport to an player or place.",
+    "Cost": 0.0
+  },
+  "respawnzombies": {
+    "Aliases": [],
+    "Usage": "",
+    "Description": "Respawn all zombies",
+    "Cost": 0.0
+  },
+  "respawnanimals": {
+    "Aliases": [],
+    "Usage": "",
+    "Description": "Respawn all animals",
+    "Cost": 0.0
+  },
+  "reply": {
+    "Aliases": [
+      "r"
+    ],
+    "Usage": "[message]",
+    "Description": "Reply to the most recent private message",
+    "Cost": 0.0
+  },
+  "clearinventory": {
+    "Aliases": [
+      "ci"
+    ],
+    "Usage": "<player>",
+    "Description": "Clear your/player's inventory",
+    "Cost": 0.0
+  },
+  "tpa": {
+    "Aliases": [],
+    "Usage": "[player/accept/deny/cancel]",
+    "Description": "None",
+    "Cost": 0.0
+  },
+  "vote": {
+    "Aliases": [],
+    "Usage": "[yes/no] [poll_name]",
+    "Description": "Vote in an pool",
+    "Cost": 0.0
+  },
+  "repairvehicle": {
+    "Aliases": [
+      "repairveh",
+      "repv"
+    ],
+    "Usage": "<all>",
+    "Description": "Repair current/all vehicle",
+    "Cost": 0.0
+  },
+  "refuelvehicle": {
+    "Aliases": [
+      "refuel"
+    ],
+    "Usage": "<all>",
+    "Description": "Refuel current/all vehicles",
+    "Cost": 0.0
+  },
+  "experience": {
+    "Aliases": [
+      "exp"
+    ],
+    "Usage": "[amount] <target>",
+    "Description": "Give experience to you/player",
+    "Cost": 0.0
+  },
+  "maxskills": {
+    "Aliases": [],
+    "Usage": "<overpower[true|false]> <player>",
+    "Description": "Set to max level all of your/player skills",
+    "Cost": 0.0
+  },
+  "repair": {
+    "Aliases": [
+      "fix"
+    ],
+    "Usage": "[all/hand]",
+    "Description": "Repair all/in hand items",
+    "Cost": 0.0
+  },
+  "sudo": {
+    "Aliases": [],
+    "Usage": "[player/*/*console*/]",
+    "Description": "Make player or console execute an command",
+    "Cost": 0.0
+  },
+  "back": {
+    "Aliases": [
+      "ret"
+    ],
+    "Usage": "",
+    "Description": "Return to position of your death.",
+    "Cost": 0.0
+  },
+  "essentials": {
+    "Aliases": [
+      "ess",
+      "?",
+      "uessentials"
+    ],
+    "Usage": "<commands/help/info/reload/savedata>",
+    "Description": "Plugin commands",
+    "Cost": 0.0
+  },
+  "killzombies": {
+    "Aliases": [
+      "clearzombies"
+    ],
+    "Usage": "",
+    "Description": "Kill all zombies",
+    "Cost": 0.0
+  },
+  "tell": {
+    "Aliases": [
+      "msg",
+      "pm"
+    ],
+    "Usage": "[player] [message]",
+    "Description": "Send private message to an player",
+    "Cost": 0.0
+  },
+  "resetplayer": {
+    "Aliases": [],
+    "Usage": "[player/playerid]",
+    "Description": "Reset all player data.",
+    "Cost": 0.0
+  },
+  "ping": {
+    "Aliases": [],
+    "Usage": "<player>",
+    "Description": "View your/player ping",
+    "Cost": 0.0
+  },
+  "poll": {
+    "Aliases": [],
+    "Usage": "[start | stop | list | info]",
+    "Description": "Start/Stop an poll",
+    "Cost": 0.0
+  },
+  "kill": {
+    "Aliases": [],
+    "Usage": "[player/*]",
+    "Description": "Kill an player",
+    "Cost": 0.0
+  },
+  "freeze": {
+    "Aliases": [],
+    "Usage": "[player/*]",
+    "Description": "Freeze a player/everyone",
+    "Cost": 0.0
+  },
+  "test": {
+    "Aliases": [],
+    "Usage": "",
+    "Description": "None",
+    "Cost": 0.0
+  },
+  "tpall": {
+    "Aliases": [],
+    "Usage": "[player/x y z]",
+    "Description": "Teleport all players to an player/position",
+    "Cost": 0.0
+  },
+  "kickall": {
+    "Aliases": [],
+    "Usage": "<reason>",
+    "Description": "Kick all players",
+    "Cost": 0.0
+  },
+  "unfreeze": {
+    "Aliases": [],
+    "Usage": "[player/*]",
+    "Description": "Unfreeze a player/everyone",
+    "Cost": 0.0
+  },
+  "spawnitem": {
+    "Aliases": [
+      "dropitem"
+    ],
+    "Usage": "[item] <amount> <x> <y> <z>",
+    "Description": "Spawn an item at given position",
+    "Cost": 0.0
+  },
+  "ascend": {
+    "Aliases": [
+      "asc"
+    ],
+    "Usage": "[amount]",
+    "Description": "Ascend X \"meters\".",
+    "Cost": 0.0
+  },
+  "descend": {
+    "Aliases": [
+      "desc"
+    ],
+    "Usage": "[amount]",
+    "Description": "Descend X \"meters\".",
+    "Cost": 0.0
+  },
+  "clear": {
+    "Aliases": [],
+    "Usage": "[i = items, v = vehicles, ev = empty vehicles] <distance>",
+    "Description": "Clear things",
+    "Cost": 0.0
+  },
+  "item": {
+    "Aliases": [
+      "i"
+    ],
+    "Usage": "[item] <amount> or [player|* = all] [item] [amount]",
+    "Description": "Give an item to you/another player",
+    "Cost": 0.0
+  },
+  "iteminfo": {
+    "Aliases": [
+      "ii"
+    ],
+    "Usage": "<item id>",
+    "Description": "See information on an item.",
+    "Cost": 0.0
+  },
+  "itemfeatures": {
+    "Aliases": [
+      "if"
+    ],
+    "Usage": "[autoreload | autorepair] [on | off]",
+    "Description": "Item features",
+    "Cost": 0.0
+  },
+  "vehiclefeatures": {
+    "Aliases": [
+      "vehfeatures",
+      "vf"
+    ],
+    "Usage": "[autorefuel | autorepair] [on|off]",
+    "Description": "Vehicle features",
+    "Cost": 0.0
+  },
+  "spypm": {
+    "Aliases": [],
+    "Usage": "",
+    "Description": "Allows you to see private messages.",
+    "Cost": 0.0
+  },
+  "suicide": {
+    "Aliases": [],
+    "Usage": "",
+    "Description": "Kill yourself",
+    "Cost": 0.0
+  },
+  "position": {
+    "Aliases": [
+      "pos",
+      "coords"
+    ],
+    "Usage": "<player>",
+    "Description": "View your/another player position.",
+    "Cost": 0.0
+  },
+  "online": {
+    "Aliases": [],
+    "Usage": "",
+    "Description": "View the number of online players",
+    "Cost": 0.0
+  },
+  "respawnitems": {
+    "Aliases": [],
+    "Usage": "",
+    "Description": "Respawn all items.",
+    "Cost": 0.0
+  },
+  "respawnvehicles": {
+    "Aliases": [],
+    "Usage": "",
+    "Description": "Respawn all vehicles.",
+    "Cost": 0.0
+  },
+  "shutdown": {
+    "Aliases": [
+      "stop"
+    ],
+    "Usage": "<reason>",
+    "Description": "Shutdown server",
+    "Cost": 0.0
+  },
+  "vehicle": {
+    "Aliases": [
+      "v"
+    ],
+    "Usage": "[vehicle] or [player|* = all] [vehicle]",
+    "Description": "",
+    "Cost": 0.0
+  },
+  "systemtime": {
+    "Aliases": [
+      "stime"
+    ],
+    "Usage": "",
+    "Description": "Show system time.",
+    "Cost": 0.0
+  },
+  "tps": {
+    "Aliases": [],
+    "Usage": "",
+    "Description": "Show tps.",
+    "Cost": 0.0
+  },
+  "skill": {
+    "Aliases": [],
+    "Usage": "[skill] [value|max] or [player|*] [skill] [value|max]",
+    "Description": "Edit skill of an player|you",
+    "Cost": 0.0
+  },
+  "pvp": {
+    "Aliases": [],
+    "Usage": "[on|off]",
+    "Description": "Enable or disable server pvp.",
+    "Cost": 0.0
+  }
+}

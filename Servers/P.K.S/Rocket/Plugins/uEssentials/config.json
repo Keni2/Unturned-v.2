@@ -1,0 +1,102 @@
+{
+  "Locale": "ru",
+  "PMFormatFrom": "(From {0}): {1}",
+  "PMFormatTo": "(To {0}): {1}",
+  "UnfreezeOnDeath": true,
+  "UnfreezeOnQuit": true,
+  "EnableTextCommands": true,
+  "EnableDeathMessages": true,
+  "EnableJoinLeaveMessage": true,
+  "ShowPermissionOnErrorMessage": true,
+  "EnablePollRunningMessage": true,
+  "PollRunningMessageCooldown": 20,
+  "ServerFrameRate": -1,
+  "ItemSpawnLimit": 10,
+  "AntiSpam": {
+    "Enabled": true,
+    "Interval": 3
+  },
+  "Updater": {
+    "CheckUpdates": true,
+    "DownloadLatest": true,
+    "AlertOnJoin": true
+  },
+  "HomeCommand": {
+    "Cooldown": 30,
+    "Delay": 5,
+    "CancelTeleportWhenMove": true
+  },
+  "WarpCommand": {
+    "Cooldown": 5,
+    "CancelTeleportWhenMove": false,
+    "PerWarpPermission": true
+  },
+  "VehicleFeatures": {
+    "RefuelPercentage": 20,
+    "RepairPercentage": 70
+  },
+  "WebKits": {
+    "Url": "",
+    "Enabled": false
+  },
+  "WebConfig": {
+    "Url": "",
+    "Enabled": false
+  },
+  "Kit": {
+    "ShowCost": true,
+    "ShowCostIfZero": false,
+    "CostFormat": "{0}({1}{2})",
+    "GlobalCooldown": 0,
+    "ResetGlobalCooldownWhenDie": false
+  },
+  "Tpa": {
+    "ExpireDelay": 10,
+    "TeleportDelay": 5
+  },
+  "Economy": {
+    "UseXp": false,
+    "XpCurrency": "Xp",
+    "UconomyCurrency": "$"
+  },
+  "AutoAnnouncer": {
+    "MessageInterval": 30,
+    "RandomMessages": false,
+    "Enabled": false,
+    "Messages": [
+      "<red>Automatic message 1",
+      "<green>Automatic message 2",
+      "<blue>Automatic message 3",
+      "<yellow>Automatic message 4",
+      "<purple>Automatic message 5"
+    ]
+  },
+  "AutoCommands": {
+    "Commands": [
+      {
+        "RunOnce": false,
+        "Timer": 120,
+        "Commands": [
+          "say \"Be sure to drink your Ovaltine!\" 0 255 255",
+          "item * glue"
+        ]
+      },
+      {
+        "RunOnce": false,
+        "Timer": 900,
+        "Commands": [
+          "clear v",
+          "respawnvehicles"
+        ]
+      }
+    ],
+    "Enabled": false
+  },
+  "GiveItemBlacklist": [],
+  "VehicleBlacklist": [],
+  "EnabledSystems": [
+    "kits",
+    "warps"
+  ],
+  "DisabledCommands": []
+}

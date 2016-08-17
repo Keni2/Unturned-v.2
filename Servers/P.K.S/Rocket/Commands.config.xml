@@ -73,5 +73,29 @@
     <Command Name="unadmin" Enabled="true" Priority="Normal">Rocket.Unturned.Commands.CommandUnadmin/unadmin</Command>
     <Command Name="v" Enabled="true" Priority="Normal">Rocket.Unturned.Commands.CommandV/v</Command>
     <Command Name="vanish" Enabled="true" Priority="Normal">Rocket.Unturned.Commands.CommandVanish/vanish</Command>
+    <Command Name="unmute" Enabled="true" Priority="Normal">fr34kyn01535.ChatControl.CommandUnmute/unmute</Command>
+    <Command Name="mute" Enabled="true" Priority="Normal">fr34kyn01535.ChatControl.CommandMute/mute</Command>
+    <Command Name="jail" Enabled="true" Priority="Normal">ApokPT.RocketPlugins.JailTimeCommand/jail</Command>
+    <Command Name="coords" Enabled="true" Priority="Normal">RocketRegions.Commands.CoordsCommand/coords</Command>
+    <Command Name="regioncreate" Enabled="true" Priority="Normal">RocketRegions.Commands.CreateCommand/regioncreate</Command>
+    <Command Name="rcreate" Enabled="true" Priority="Normal">RocketRegions.Commands.CreateCommand/rcreate</Command>
+    <Command Name="regionflag" Enabled="true" Priority="Normal">RocketRegions.Commands.FlagCommand/regionflag</Command>
+    <Command Name="rflag" Enabled="true" Priority="Normal">RocketRegions.Commands.FlagCommand/rflag</Command>
+    <Command Name="regionsinfo" Enabled="true" Priority="Normal">RocketRegions.Commands.InfoCommand/regionsinfo</Command>
+    <Command Name="rinfo" Enabled="true" Priority="Normal">RocketRegions.Commands.InfoCommand/rinfo</Command>
+    <Command Name="regionlist" Enabled="true" Priority="Normal">RocketRegions.Commands.ListCommand/regionlist</Command>
+    <Command Name="rlist" Enabled="true" Priority="Normal">RocketRegions.Commands.ListCommand/rlist</Command>
+    <Command Name="regionpos" Enabled="true" Priority="Normal">RocketRegions.Commands.PosCommand/regionpos</Command>
+    <Command Name="rpos" Enabled="true" Priority="Normal">RocketRegions.Commands.PosCommand/rpos</Command>
+    <Command Name="regionredefine" Enabled="true" Priority="Normal">RocketRegions.Commands.RedefineCommand/regionredefine</Command>
+    <Command Name="rredefine" Enabled="true" Priority="Normal">RocketRegions.Commands.RedefineCommand/rredefine</Command>
+    <Command Name="regionremove" Enabled="true" Priority="Normal">RocketRegions.Commands.RemoveCommand/regionremove</Command>
+    <Command Name="rremove" Enabled="true" Priority="Normal">RocketRegions.Commands.RemoveCommand/rremove</Command>
+    <Command Name="wreck" Enabled="true" Priority="Normal">ApokPT.RocketPlugins.WreckingBall/wreck</Command>
+    <Command Name="w" Enabled="true" Priority="Normal">ApokPT.RocketPlugins.WreckingBall/w</Command>
+    <Command Name="listvehicles" Enabled="true" Priority="Normal">ApokPT.RocketPlugins.WreckingBall/listvehicles</Command>
+    <Command Name="listtopplayers" Enabled="true" Priority="Normal">ApokPT.RocketPlugins.WreckingBall/listtopplayers</Command>
+    <Command Name="disablecleanup" Enabled="true" Priority="Normal">ApokPT.RocketPlugins.WreckingBall/disablecleanup</Command>
+    <Command Name="report" Enabled="true" Priority="Normal">Rocket.Plugins.Observatory.CommandReport/report</Command>
   </Commands>
 </RocketCommands>
